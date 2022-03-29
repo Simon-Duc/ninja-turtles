@@ -1,24 +1,25 @@
-import logo from './logo.svg';
+import logo from './wild-post2.png';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <>
+      <header> 
+        <img src={logo} alt="logo" className="logo"/>
+        <nav>
+          <ul className="navbar">
+            <li>Main</li>
+            <li>Interviews</li>
+            <li>Evenements</li>
+            <li>Cours</li>
+          </ul>
+        </nav>
+        <img src="https://loremflickr.com/640/480" alt="Random Image"></img>
+        <h1>
+          The Wild Post, le journal des futurs Wilders !
+        </h1>
       </header>
-    </div>
+    </>
   );
 }
 
