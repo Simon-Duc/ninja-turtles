@@ -1,5 +1,7 @@
 import logo from './wild-post2.png';
 import './App.css';
+import Li from './Li';
+
 
 function App() {
   return (
@@ -8,10 +10,10 @@ function App() {
         <img src={logo} alt="logo" className="logo"/>
         <nav>
           <ul className="navbar">
-            <li>Main</li>
-            <li>Interviews</li>
-            <li>Evenements</li>
-            <li>Cours</li>
+            <Li text="Main" />
+            <Li text="Interviews" />
+            <Li text="Evenements" />
+            <Li text="Cours" />
           </ul>
         </nav>
         <img src="https://loremflickr.com/640/480" alt="Random Image"></img>
