@@ -1,6 +1,6 @@
 function Li (props) {
     return (
-        <li>{props.text}</li>
+        <li className="li">{props.text}</li>
     )
 }
 
